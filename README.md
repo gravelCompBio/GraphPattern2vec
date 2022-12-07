@@ -35,7 +35,7 @@ From pip:
 
 ## Downloading this repository 
 ``` 
-git clone https://github.com/..... 
+git clone https://github.com/gravelCompBio/GraphPattern2vec.git
  ``` 
  ``` 
 cd GraphPatter2Vec 
