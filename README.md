@@ -74,7 +74,7 @@ or
 
 # Before running the link prediction in either notebook generate your own embeddings  !!!!!!  PLEASE READ THIS SECTION !!!!!!
 
-1) you double check you downloaded all files of the Knowlege graph and embedding files from the "Utilizing the Model" section
+1) double check you downloaded all files of the Knowlege graph and embedding files from the "Utilizing the Model" section
 
 2) after you preform the random walk in sections of the code in either notebook, you can use the embbeding files we provided. If you wish to generate you own embedding you can preform metapath2vec off the random walk to re-generate new embbeding files. (see section below for metapath2vec instructrions)
 
