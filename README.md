@@ -30,6 +30,8 @@ From pip:
 ![PyPI](https://img.shields.io/pypi/v/statsmodels?label=tqdm)
 ![PyPI](https://img.shields.io/pypi/v/networkx?label=networkx)
 
+Todo update copy paste for badges
+
 ### optional envirorment 
 ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white)
 
@@ -95,6 +97,7 @@ We used These paramaters for change2vec
 - PlusPlus 1
 
 Example code of how we put it in the terminal 
+Todo update acutull example
 ``` 
 ./metapath2vec
 ``` 
