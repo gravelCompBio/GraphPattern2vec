@@ -5,6 +5,7 @@
 
 
 This repository contains the code and datasets for the manuscript "".   
+TODO fill ouy
 
 Included in this repository are the following: 
 
@@ -20,7 +21,7 @@ Python == 3.10.8
 
 From pip:
 
-![PyPIwoop](https://img.shields.io/pypi/v/jupyterlab?label=matplotlib)
+![PyPIwoop](https://img.shields.io/pypi/v/jupyterlab?label=jupyterlab)
 ![PyPI](https://img.shields.io/pypi/v/numpy?label=numpy)
 ![PyPI](https://img.shields.io/pypi/v/pandas?label=pandas)
 ![PyPI](https://img.shields.io/pypi/v/matplotlib?label=matplotlib)
@@ -102,7 +103,7 @@ see paper for a better explination
 #### Dong, Y., Chawla, N. V., & Swami, A. (2017, August). metapath2vec: Scalable representation learning for heterogeneous networks. In Proceedings of the 23rd ACM SIGKDD international conference on knowledge discovery and data mining (pp. 135-144).
 
 
-
+------ TO DO fill out the rest of the documentaiton 
 
 This section will describe utilizing the graphpattern2vec model and producing link-predictions with a knowledge graph  
 
