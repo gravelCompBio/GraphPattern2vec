@@ -74,7 +74,9 @@ conda activate gp2v
 ## Utilizing the Model 
 ### downloading a needed file
 
-1) First go to the DownloadLinkForData.txt and copy and paste url into your internet browser
+1) First go to the DownloadLinkForData.txt and copy and paste url into your internet browser (link also below)
+##### https://outlookuga-my.sharepoint.com/:f:/g/personal/nmg60976_uga_edu/En8DIYBGpO5ElXNxou5HyWIBfmuny9V5kWUX2XSNnCcPXQ?e=iUyTAU
+
 2) Download the /data folder and put the /data folder in the GraphPattern2vec-main folder (unzipped if you downloaded a zipped version)
 3) Navigate to your way inside GraphPattern2vec-main folder in the termimal and run jupyter lab
 
