@@ -2,7 +2,7 @@
 
 ## Introduction 
 
- 
+
 
 This repository contains the code and datasets for the manuscript "".   
 
@@ -52,7 +52,12 @@ conda env create -f gp2v.yml -n gp2v
 conda activate gp2v
 ``` 
 
-## Utilizing Model 
+## Utilizing the Model 
+### downloading a needed file
+
+1) First go to the DownloadLinkForData.txt and copy and paste url into your internet browser
+2) Download the /data folder and put the /data folder in the GraphPattern2vec-main folder (unzipped if you downloaded a zipped version)
+3) Navigate to your way inside GraphPattern2vec-main folder in the termimal and run jupyter lab
 
 ``` 
 jupyter lab
@@ -63,11 +68,39 @@ jupyter lab
 
 or
 #### ------ graphpattern2vec_process-multithread-PREDICTION-Edited2022.ipynb
-- for generating perdiction 
+- for generating perdictions  
 - ROC in this file does not represeint the overall accuracy 
 
 
 # Before running the link prediction in either notebook generate your own embeddings  !!!!!!  PLEASE READ THIS SECTION !!!!!!
+
+1) you double check you downloaded all files of the Knowlege graph and embedding files from the "Utilizing the Model" section
+
+2) after you preform the random walk in sections of the code in either notebook, you can use the embbeding files we provided. If you wish to generate you own embedding you can preform metapath2vec off the random walk to re-generate new embbeding files. (see section below for metapath2vec instructrions)
+
+3) If you happy with the existing emebbeding files you can run the link prediction sections of the code in either notebook
+
+## Basic guide for running metapath2vec to generate new ebbedding files from your randomwalk file 
+
+We use Change2vec++ to generate embeddings 
+This is where the code is from  
+#### https://github.com/Change2vec/change2vec/tree/master/metapath2vec/code_metapath2vec
+We used These paramaters for change2vec
+- Size 256
+- Window 7
+- Negitive 5
+- MinCount 5
+- Threads 32
+- PlusPlus 1
+
+Example code of how we put it in the terminal 
+``` 
+./metapath2vec
+``` 
+
+see paper for a better explination 
+#### Dong, Y., Chawla, N. V., & Swami, A. (2017, August). metapath2vec: Scalable representation learning for heterogeneous networks. In Proceedings of the 23rd ACM SIGKDD international conference on knowledge discovery and data mining (pp. 135-144).
+
 
 
 
