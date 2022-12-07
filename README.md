@@ -16,19 +16,19 @@ Example Embedding file
 
 ## Installing dependencies  
 
-![Python 3.10.8](https://img.shields.io/badge/Python-3.10.8-green)
+![python=3.10.8](https://img.shields.io/badge/Python-3.10.8-green)
 Python == 3.10.8
 
 From pip:
 
-![PyPIwoop](https://img.shields.io/pypi/v/jupyterlab?label=jupyterlab)
-![PyPI](https://img.shields.io/pypi/v/numpy?label=numpy)
-![PyPI](https://img.shields.io/pypi/v/pandas?label=pandas)
-![PyPI](https://img.shields.io/pypi/v/matplotlib?label=matplotlib)
-![PyPI](https://img.shields.io/pypi/v/scikit-learn?label=scikit-learn)
-![PyPI](https://img.shields.io/pypi/v/tqdm?label=tqdm)
-![PyPI](https://img.shields.io/pypi/v/statsmodels?label=tqdm)
-![PyPI](https://img.shields.io/pypi/v/networkx?label=networkx)
+![jupyterlab=3.5.0](https://img.shields.io/pypi/v/jupyterlab?label=jupyterlab)
+![numpy=1.23.5](https://img.shields.io/pypi/v/numpy?label=numpy)
+![pandas=1.5.2](https://img.shields.io/pypi/v/pandas?label=pandas)
+![matplotlib=3.6.2](https://img.shields.io/pypi/v/matplotlib?label=matplotlib)
+![scikit-learn=1.1.3](https://img.shields.io/pypi/v/scikit-learn?label=scikit-learn)
+![statsmodels=0.13.5](https://img.shields.io/badge/statsmodels-0.13.5-blue)
+![tqdm=4.64.1](https://img.shields.io/badge/tqdm-4.64.1-blue)
+![networkx==2.8.8](https://img.shields.io/pypi/v/networkx?label=networkx)
 
 Todo update copy paste for badges
 
