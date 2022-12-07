@@ -5,13 +5,29 @@
 
 
 This repository contains the code and datasets for the manuscript "".   
-TODO fill ouy
 
-Included in this repository are the following: 
 
-Example Knowledge Graph  
+#### Included in this repository are the following: 
 
-Example Embedding file 
+- DownloadLinkForData.txt file
+  - you must open this file and download the link from this file
+  - it contains KG, embeddings, uniprot2genename, and reactome2pathwayname files 
+  
+- 2 jupyter lab notebooks files
+  - one for measruing the accuracy 
+  - one for predictions
+  
+- gp2v.yml file
+  - this has the can be used to create the environment 
+  
+- graphpattern2vec folders 
+  - this folder holds the objects/funtions of graphpattern2vec
+
+- Readme.md file
+  - Your reading it right now
+  
+- model folder 
+  - will hold temperary files 
 
 
 ## Installing dependencies  
