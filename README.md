@@ -59,6 +59,10 @@ git clone https://github.com/gravelCompBio/GraphPattern2vec.git
  ``` 
 cd GraphPatter2vec/ 
 ``` 
+### ALSO DOWNLOAD THIS data/ FOLDER AND PUT IT IN THE GraphPattern2vec-main folder (unzip and make sure the name of the unziped folder is still "data")
+
+https://outlookuga-my.sharepoint.com/:u:/g/personal/nmg60976_uga_edu/EatErUI0YUNMnDxxk-LOcnYBvG30lkW2weNIv2WuUfZVzw?e=Ig92AU
+
 
 
 
@@ -74,11 +78,8 @@ conda activate gp2v
 ## Utilizing the Model 
 ### downloading a needed file
 
-1) First go to the DownloadLinkForData.txt and copy and paste url into your internet browser (link also below)
-##### https://outlookuga-my.sharepoint.com/:f:/g/personal/nmg60976_uga_edu/En8DIYBGpO5ElXNxou5HyWIBfmuny9V5kWUX2XSNnCcPXQ?e=iUyTAU
-
-2) Download the /data folder and put the /data folder in the GraphPattern2vec-main folder (unzipped if you downloaded a zipped version)
-3) Navigate to your way inside GraphPattern2vec-main folder in the termimal and run jupyter lab
+1) Double check you downloaded the data/ folder (see download repostory section )
+2) Navigate to your way inside GraphPattern2vec-main folder in the termimal and run jupyter lab
 
 ``` 
 jupyter lab
@@ -95,7 +96,7 @@ or
 
 # Before running the link prediction in either notebook generate your own embeddings  !!!!!!  PLEASE READ THIS SECTION !!!!!!
 
-1) double check you downloaded all files of the Knowlege graph and embedding files from the "Utilizing the Model" section
+1) double check you downloaded all files of the Knowlege graph and embedding files from the "Downloading this repository " section
 
 2) after you preform the random walk in sections of the code in either notebook, you can use the embbeding files we provided. If you wish to generate you own embedding you can preform metapath2vec off the random walk to re-generate new embbeding files. (see section below for metapath2vec instructrions)
 
