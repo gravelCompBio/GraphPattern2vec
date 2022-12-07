@@ -113,13 +113,19 @@ We used These paramaters for change2vec
 - PlusPlus 1
 
 Example code of how we put it in the terminal 
+
 Todo update acutull example
+
+
 ``` 
 ./metapath2vec
 ``` 
 
 see paper for a better explination 
 #### Dong, Y., Chawla, N. V., & Swami, A. (2017, August). metapath2vec: Scalable representation learning for heterogeneous networks. In Proceedings of the 23rd ACM SIGKDD international conference on knowledge discovery and data mining (pp. 135-144).
+
+
+## Other Info
 
 
 ------ TO DO fill out the rest of the documentaiton 
