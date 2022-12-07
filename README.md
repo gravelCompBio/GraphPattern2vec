@@ -57,7 +57,7 @@ Todo update copy paste for badges
 git clone https://github.com/gravelCompBio/GraphPattern2vec.git
  ``` 
  ``` 
-cd GraphPatter2Vec 
+cd GraphPatter2vec/ 
 ``` 
 
 
