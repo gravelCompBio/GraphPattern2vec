@@ -47,7 +47,7 @@ From pip:
 ![tqdm=4.64.1](https://img.shields.io/badge/tqdm-4.64.1-blue)
 ![networkx==2.8.8](https://img.shields.io/pypi/v/networkx?label=networkx)
 
-Todo update copy paste for badges
+//Todo update copy paste for badges
 
 ### optional envirorment 
 ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white)
