@@ -1,4 +1,4 @@
-# GraphPattern2vec
+# RegPattern2Vec
 
 ## Introduction 
 
@@ -10,25 +10,24 @@ This repository contains the code and datasets for the manuscript "Predicting Pr
 #### Included in this repository are the following: 
 
 - DownloadLinkForData.txt file
-  - you must open this file and download the link from this file
-  - it contains KG, embeddings, uniprot2genename, and reactome2pathwayname files 
+  - file contains link for download 
+  - Download contains KG, embeddings, uniprot2genename, and reactome2pathwayname files 
   
 - 2 jupyter lab notebooks files
-  - one for measruing the accuracy 
-  - one for predictions
+  - Notebook for measuring the accuracy (insert)
+  - Notebook for prediction generation (insert)
   
-- gp2v.yml file
-  - this can be used to create the environment 
+- gp2v.yml file (name change?)
+  - file can be used to create the environment 
   
 - graphpattern2vec folders 
-  - this folder holds the objects/funtions of graphpattern2vec
+  - folder holds the objects/funtions of RegPattern2Vec
 
 - Readme.md file
-  - this holdes instructrions to how to run the code
+  - You're reading it right now
   
 - model folder 
-  - will hold temperary files 
-  
+  - folder holds temporary files 
 
 
 ## Installing dependencies  
@@ -47,7 +46,7 @@ From pip:
 ![tqdm=4.64.1](https://img.shields.io/badge/tqdm-4.64.1-blue)
 ![networkx==2.8.8](https://img.shields.io/pypi/v/networkx?label=networkx)
 
-//Todo update copy paste for badges
+Todo update copy paste for badges
 
 ### optional envirorment 
 ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white)
@@ -58,17 +57,17 @@ From pip:
 git clone https://github.com/gravelCompBio/GraphPattern2vec.git
  ``` 
  ``` 
-cd GraphPatter2vec/ 
+cd GraphPatter2vec/  (name change?)
 ``` 
-### ALSO DOWNLOAD THIS data/ FOLDER AND PUT IT IN THE GraphPattern2vec-main folder (unzip and make sure the name of the unziped folder is still "data")
+### ALSO DOWNLOAD THIS data/ FOLDER AND PUT IT IN THE RegPattern2Vec-main folder (unzip and make sure the name of the unziped folder is still "data")
 
 https://outlookuga-my.sharepoint.com/:u:/g/personal/nmg60976_uga_edu/EatErUI0YUNMnDxxk-LOcnYBvG30lkW2weNIv2WuUfZVzw?e=Ig92AU
-
+(Consider using figshare)
 
 
 
 ## Installing dependencies with conda ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white)
-the yml file is in GraphPatter2Vec file and is named "gp2v.yml"
+the yml file is in RegPatter2Vec file and is named "gp2v.yml"  (Name change?)
 ``` 
 conda env create -f gp2v.yml -n gp2v
 ``` 
@@ -77,22 +76,22 @@ conda activate gp2v
 ``` 
 
 ## Utilizing the Model 
-### downloading a needed file
+### downloading needed file
 
-1) Double check you downloaded the data/ folder (see download repostory section )
-2) Navigate to your way inside GraphPattern2vec-main folder in the termimal and run jupyter lab
+1) Confirm prerequisite data has been downloaded (see download repostory section)
+2) Navigate to GraphPattern2vec-main folder in the termimal and run jupyter lab  (Name Change?)
 
 ``` 
 jupyter lab
 ``` 
 #### once in the jupyter lab navigate to either 
-#### ------ graphpattern2vec_process-multithread-Edited2022  
-- for measureing an accurate ROC 
+#### ------ graphpattern2vec_process-multithread-Edited2022  (name change needed?)
+- for measuring accuracy of the model (AUC-ROC) 
 
 or
-#### ------ graphpattern2vec_process-multithread-PREDICTION-Edited2022.ipynb
+#### ------ graphpattern2vec_process-multithread-PREDICTION-Edited2022.ipynb  (Name change?)
 - for generating perdictions  
-- ROC in this file does not represeint the overall accuracy 
+- ROC in this file does not represent the overall accuracy 
 
 
 # Before running the link prediction in either notebook generate your own embeddings  !!!!!!  PLEASE READ THIS SECTION !!!!!!
