@@ -4,7 +4,7 @@
 
 
 
-This repository contains the code and datasets for the manuscript "".   
+This repository contains the code and datasets for the manuscript "Predicting Protein and Pathway Associations for Understudied Dark Kinases using Pattern-constrained Knowledge Graph Embedding ".   
 
 
 #### Included in this repository are the following: 
@@ -18,16 +18,17 @@ This repository contains the code and datasets for the manuscript "".
   - one for predictions
   
 - gp2v.yml file
-  - this has the can be used to create the environment 
+  - this can be used to create the environment 
   
 - graphpattern2vec folders 
   - this folder holds the objects/funtions of graphpattern2vec
 
 - Readme.md file
-  - Your reading it right now
+  - this holdes instructrions to how to run the code
   
 - model folder 
   - will hold temperary files 
+  
 
 
 ## Installing dependencies  
